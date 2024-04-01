@@ -11,3 +11,24 @@ input, button{
   border: none;
   outline: none;
 }
+.redes{
+  justify-content: center;
+  display: flex;
+  grid-gap: 2rem;
+}
+.redes i{
+  font-size: 1.5rem;
+
+}
+.redes a{
+  color: rgb(65, 65, 65);
+  border: 0;
+  padding: 1rem;
+  border-radius: 50%;
+  text-decoration: none;
+  line-height: 0;
+}
+.redes a:hover{
+  background: #d3d3d3;
+
+}

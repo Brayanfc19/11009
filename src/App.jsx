@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import Contacto from './Contacto';
+import Contacto from './components/Contacto';
 
 function App() {
 
@@ -22,7 +22,7 @@ function App() {
       
       <main>
         <div className='content'>
-          <h1>Virgen de la Medalla Milagrosa</h1>
+          <h1>Virgen de la Medalla Milagrosa - 11009</h1>
           <p>Inicial | Primaria | Secundaria</p>
           <input type="search" placeholder='Buscar ...'/>
           <hr />
@@ -32,9 +32,14 @@ function App() {
           </div>
         </div>
         <div>
-          <img src="" alt="hola" />
+          <img src="" alt="imagen" />
         </div>
       </main>
+        <div className='redes'>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-solid fa-envelope"></i></a>
+          <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
       
       <div className="main-content">
         
