@@ -1,0 +1,82 @@
+
+.App {
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar ul{
+  padding: 1.5rem;
+  display: flex;
+  grid-gap: 2rem;
+  color: #5e5e5e;
+  
+  list-style: none;
+
+}
+.navbar ul a{
+  color: #c9c9c9;
+  text-decoration: none;
+  padding: 5px;
+}
+.navbar ul a:hover{
+  color: #000;
+}
+
+
+main{
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-around;
+  padding: 4rem;
+}
+main .content{
+  display: flex;
+  flex-direction: column;
+  grid-gap: 1.5rem;
+  padding: 4rem;
+}
+main .content h1{
+  font-size: 3rem;
+}
+main .content input{
+  border: 2px solid #5e5e5e;
+  padding: 20px;
+  border-radius: 30px;
+}
+main .content .buttons{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+main .content .buttons button{
+  
+  padding: 22px;
+  border-radius: 30px;
+}
+
+.about-me .informacion{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+.about-me .informacion div{
+  padding: 2rem;
+  background-color: #5e5e5e;
+  border-radius: 30px;
+}
+
+.main-content{
+  padding: 2rem;
+}
+@media (max-width: 768px) {
+  main{
+    text-align: center;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+  }
+}
