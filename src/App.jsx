@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
+import Contacto from './Contacto';
 
 function App() {
 
@@ -66,6 +67,8 @@ function App() {
           
         </div>
       </div>
+
+      <Contacto />
     </div>
   );
 }
