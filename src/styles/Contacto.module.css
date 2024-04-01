@@ -1,3 +1,14 @@
 .card_form{
     padding: 20px;
 }
+
+.hr_vertical{
+    margin-left: 50%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    height:20vh;
+    width:.4vw;
+    border-width:0;
+    color:#000;
+    background-color:#000;
+}
